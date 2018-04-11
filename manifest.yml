@@ -2,6 +2,7 @@
 applications:
 
 - name: cf_app_s4sdk
+  host: cf_app_s4sdk_hello_world
   memory: 768M
   random-route: true
   path: application/target/cf_app_s4sdk-application.war
